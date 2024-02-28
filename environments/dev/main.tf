@@ -11,4 +11,3 @@ module "vpc" {
   project = "${var.project}"
   env     = "${local.env}"
 }
-
