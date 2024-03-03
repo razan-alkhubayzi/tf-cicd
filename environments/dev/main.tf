@@ -7,7 +7,7 @@ provider "google" {
 }
 
 module "vpc" {
-  source  = "../../modules/vpc"
+  source  = "../../modules/network"
   project = "${var.project}"
   env     = "${local.env}"
 }
